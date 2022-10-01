@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-
-  # Defines the root path route ("/")
-  # root "articles#index"
+  #resources: users --crea todas las rutas se CRUD
+  # Genero solo las rutas de new y create
+  resource :users, only:[:new, :create]
 end
