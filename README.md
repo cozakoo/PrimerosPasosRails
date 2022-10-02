@@ -26,3 +26,8 @@ Things you may want to cover:
 # pasos a seguir 
 bundle install
 
+## ejecutar proyecto
+rails s
+
+## acceder a la base de datos 
+rails bd
